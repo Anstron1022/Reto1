@@ -333,12 +333,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 164882499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e504306367b8ba41b05e9b9385b1bd0, type: 3}
+  m_Script: {fileID: 11500000, guid: fab961bd2dc02774db5eae9a2306ce66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startScene: 1-1
-  continueScene: LevelSelect
-  continueButton: {fileID: 0}
+  mainMenu: MainMenu
 --- !u!1 &308363706
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,8 +826,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 164882504}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_TargetAssemblyTypeName: Victory, Assembly-CSharp
+        m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
